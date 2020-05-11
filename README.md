@@ -5,8 +5,8 @@
 Dependencies
 
 1) Download and install Docker CE on your machine. You can find the latest copy here: https://docs.docker.com/docker-for-mac/release-notes/
-2) Download and install Vault CLI via brew: `brew install vault` (you will need this to interact with vault via CLI, both for Enova vault or your local vault)
-3) Insert the following into your environment file. This will allow you to connect to your local vault via the CLI. You can also change this value to connect to Enova's vault server when you are ready to make changes: `export VAULT_ADDR="http://localhost:8200"`
+2) Download and install Vault CLI via brew: `brew install vault` (you will need this to interact with vault via CLI, both for production vault or your local vault)
+3) Insert the following into your environment file. This will allow you to connect to your local vault via the CLI. You can also change this value to connect to production vault server when you are ready to make changes: `export VAULT_ADDR="http://localhost:8200"`
 
 Short how to get started:
 

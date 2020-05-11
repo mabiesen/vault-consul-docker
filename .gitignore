@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+.vscode
+consul/data/*
+vault/data/*
+vault/logs/*
+
